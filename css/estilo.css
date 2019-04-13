@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* cabeçalho */
+header#cab {
+	border-bottom: 1px black solid;
+}
+header#cab img#ico {
+	position: absolute;
+	left: 1250px;
+	top: 70px;
+	width: 100px;
+}
+header#cab h1#ico{
+	font-family: fantasy;
+	font-size: 40px;
+	color: silver;
+	text-shadow: 1px 1px 9px rgba(0,0,0,1);
+
+}
+/* corpo */
+body {
+ background-color: #100c08;
+}
+li {
+	font-size: 20pt;
+}
+div#interface {
+}
+/* menu format */
+nav#menu {
+
+}
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -10px;
+	left: 900px;
+
+}
+nav#menu li {
+	display: inline-block;
+	padding: 1px;
+	margin: 2px;
+}
+nav#menu a {
+	color: silver;
+	text-decoration: none;
+}
+nav#menu a:hover {
+	color: black;
+}
+section#corp {
+	display: block;
+	width: 900px;
+	float: left;
+	border-right: 1px black solid;
+	padding-right: 0px;
+}
+section#corp h2#s{
+	font-size: 40px;
+	color: silver;
+}
+section#corp p#s{
+	font-size: 30px;
+	color: silver;
+}
+aside#lat {
+	display: block;
+	float: right;
+	width: 650px;
+	padding-right: 0px;
+}
+aside#lat h1{
+	font-size: 33px;
+	color: silver;
+}
+footer#pe {
+	clear: both;
+	border-top: 1px black solid;
+}
+footer#pe p {
+	color: silver;
+	text-align: center;
+}
+section#skill h2#s,p#s{
+
+	font-size: 40px;
+	color: silver
+}
+section#contact h2#s,p#s {
+	font-size: 40px;
+	color: silver;
+}
+section#work h2#s,h1#s {
+	text-align: left;
+	font-size: 40px;
+	color: silver;
+}
+body#bck {
+    background-color: #214365;
+}
